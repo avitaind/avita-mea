@@ -42,7 +42,7 @@ function instagramLinkForCountry( $country ) {
 
     switch ( $country ) {
         case 'sl':  return '';
-        default:    return "";
+        default:    return "https://www.instagram.com/avitamiddleeast/";
     }
 }
 
@@ -67,7 +67,7 @@ function youtubeLinkForCountry( $country ) {
 
     switch ( $country ) {
         case 'sl':  return '';
-             default:    return "https://www.facebook.com/AVITAMiddleEast";
+             default:    return "";
     }
 }
 

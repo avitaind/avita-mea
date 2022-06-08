@@ -9,7 +9,7 @@
     <main class="top-nav-padding">
 
         @include('partials.admiror-navbar')
-		@include('partials.rolling-cta')
+		{{-- @include('partials.rolling-cta') --}}
 
         <!-------------------Submenu----------
         <div class="nav-product-panel">
@@ -58,10 +58,10 @@
                             <img class="hidden-sm-down" src="/images/admiror/admiror_brown.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">   
                                 <li style="background-color: #b1816b"  class="active"  data-image="/images/admiror/admiror_brown.png"></li> 
-                                {{-- <li style="background-color: #d08364" data-image="/images/admiror/admiror_gold.png"></li>
-                                <li style="background-color: #efa4a1" data-image="/images/admiror/admiror_pink.png"></li>
-                                <li style="background-color: #75779b"data-image="/images/admiror/admiror_blue.png"></li>
-                                <li style="background-color: #b7b189" data-image="/images/admiror/admiror_green.png"></li> --}}
+                                <li style="background-color: #d08364" data-image="/images/admiror/admiror_gold_s_14.png"></li>
+                                {{-- <li style="background-color: #efa4a1" data-image="/images/admiror/admiror_pink.png"></li> --}}
+                                {{-- <li style="background-color: #75779b"data-image="/images/admiror/admiror_blue.png"></li> --}}
+                                {{-- <li style="background-color: #b7b189" data-image="/images/admiror/admiror_green.png"></li> --}}
                             </ul>
                         </a>  
                         
@@ -92,13 +92,13 @@
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
                                 <div>
-                                    {{-- Intel® Core™ i5-8265U Processor<br /> --}}
-                                	 Intel® Core™ i7-8565U Processor
+                                    Intel® Core™ i5-10210U Processor<br />
+                                	Intel® Core™ i7-10210U Processor
 								</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>14 TFT (1920x1080) IPS</div>
+                                <div>14 16:9 Full HD (1920 x 1080) IPS Panel with 72% NTSC 178 degree wide viewing angle</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
@@ -110,7 +110,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div>256GB / 512GB SSD SATA M.2</div>
+                                <div>512GB / 1TB SSD SATA M.2</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
@@ -164,7 +164,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Blazing Brown* <small>(* To be released)</small></div>
+                                <div>Blazing Brown, Flaming Copper</small></div>
                                 {{-- <div>Blazing Brown, Flaming Copper, Delight Pink, Pride Blue*, Traveler Green* <small>(* To be released)</small></div> --}}
                             </li>
                             <li class="spec-item d-flex">
