@@ -141,23 +141,7 @@
 
                 <!---- Language Dropdown --------->
 
-                <li class="nav-item has-dropdown">
-                    <input id="header_buy_online" type="checkbox" hidden="">
-                    <a class="nav-link px-md-4 py-2"><label for="header_buy_online"
-                            class="d-block mb-0"><?php echo e(app()->getLocale()); ?></label></a>
-                    <div class="dropdown">
-                        <ul class="list-unstyled">
-                            <li class="nav-item">
-                                <a href="<?php echo e(url('locale/en')); ?>"><img src="<?php echo e(asset('images/en.jpg')); ?>"
-                                        width="30px" height="20x"></i> ENGLISH</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="<?php echo e(url('locale/hi')); ?>"><img src="<?php echo e(asset('images/hi.jpg')); ?>"
-                                        width="30px" height="20x"></i> हिन्दी</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
+                
 
                 <!--- Language Dropdown ----->
             </ul>

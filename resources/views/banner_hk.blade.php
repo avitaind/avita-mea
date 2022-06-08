@@ -61,7 +61,7 @@
 
         <div class="carousel-item ">
                 <div class="responsive-block">
-                {{-- <a href="{{ route('product.overview', 'magus-2in1') }}"> --}}
+                <a href="https://promotion.avita.com/?utm_source=minisite&utm_medium=brandsite&utm_campaign=liveitup" target="_blank">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -73,13 +73,13 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/AVITA_LIVE_IT_UP_en_mo.jpg')"></div>
                     </div>
-                    {{-- </a> --}}
+                    </a>
                 </div>
             </div>
         
             <div class="carousel-item ">
                 <div class="responsive-block">
-                {{-- <a href="{{ route('product.overview', 'essential') }}"> --}}
+                <a href="{{ route('product.overview', 'essential-premier') }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -91,13 +91,13 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/AVITA_Essential_Premier_KV_mo.jpg')"></div>
                     </div>
-                    {{-- </a> --}}
+                    </a>
                 </div>
             </div>
 
             <div class="carousel-item ">
                 <div class="responsive-block">
-                {{-- <a href="{{ route('product.overview', 'essential') }}"> --}}
+                <a href="{{ route('product.overview', 'essential') }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -109,7 +109,7 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/avita-essential-mob-new.jpg')"></div>
                     </div>
-                    {{-- </a> --}}
+                    </a>
                 </div>
             </div>
 
@@ -133,7 +133,7 @@
 
             <div class="carousel-item ">
                 <div class="responsive-block">
-                {{-- <a href="{{ route('product.overview', 'essential') }}"> --}}
+                <a href="{{ route('product.overview', 'liber-v-amd') }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -145,13 +145,13 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/avita-liber-v-mob-new-v4.jpg')"></div>
                     </div>
-                    {{-- </a> --}}
+                    </a>
                 </div>
             </div>
 
             <div class="carousel-item ">
                 <div class="responsive-block">
-                {{-- <a href="{{ route('product.overview', 'essential') }}"> --}}
+                <a href="https://www.amazon.ae/stores/page/8E3921FC-25D1-455F-B01D-BDA7478EF18A" target="_blank">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -163,7 +163,7 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/avita_mea_apr_promo_en_mo.jpg')"></div>
                     </div>
-                    {{-- </a> --}}
+                    </a>
                 </div>
             </div>
 
@@ -187,7 +187,7 @@
 
             <div class="carousel-item ">
                 <div class="responsive-block">
-                {{-- <a href="{{ route('product.overview', 'essential') }}"> --}}
+                <a href="{{ route('product.overview', 'pura-amd') }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -199,7 +199,7 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/AMD_Ryzen_PURA_375x600_mea.jpg')"></div>
                     </div>
-                    {{-- </a> --}}
+                    </a>
                 </div>
             </div>
         
